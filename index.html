@@ -1,0 +1,31 @@
+<!doctype html><html lang="it"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Carpisina AI</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head><body>
+<div class="stars"></div>
+<header><div class="brand">🐢 CARPISINA <b>AI</b></div><nav><a href="#chat">🐢 CARPISINA</a><a href="#faq">❔ FAQ</a></nav><div class="online">● ONLINE</div></header>
+<main>
+<section class="left">
+<div class="hero"><div><p class="pixel green">IL TUO ASSISTENTE DIGITALE</p><h1>CARPISINA</h1><h2>GAMING & TECH</h2><p>Chiedi tutto quello che vuoi su Gaming, Informatica, Notizie, Aggiornamenti di PixelDrop e tanto altro!</p><button onclick="document.querySelector('#userInput').focus()">💬 INIZIA A CHATTARE ›</button></div><div class="turtle"><div class="bubble">READY!</div>🐢<span>🎧</span></div></div>
+<div class="cards">
+<button onclick="ask('Consigliami qualcosa per il gaming')">🎮<b>GAMING</b><small>Giochi, Notizie e FPS</small></button>
+<button onclick="ask('Ho una domanda di informatica')">🖥️<b>INFORMATICA</b><small>PC e Software</small></button>
+<button onclick="ask('Aiutami con hardware PC')">⚙️<b>HARDWARE</b><small>Componenti e Upgrade</small></button>
+<button onclick="ask('Ho bisogno di aiuto software')">📰<b>NOTIZIE</b><small>Aggiornamenti su tutto</small></button>
+<button onclick="ask('Ho una domanda generica')">❓<b>ALTRO</b><small>Chiedi quello che vuoi</small></button>
+</div>
+<section class="numbers"><h3>✦ I NOSTRI SOCIAL</h3><div class="stats"><article>👥<small>FOLLOWERS TIKTOK</small><strong>869</strong></article><article>💬<small>FOLLOWERS INSTAGRAM</small><strong>117</strong></article><article>📚<small>FOLLOWERS YOUTUBE</small><strong>20</strong></article><article>⚡<small>FOLLOWERS WHATSAPP</small><strong>53
+</strong></article><article>🟢<small>ONLINE ORA</small><strong id="on">247</strong></article></div></section>
+<section id="faq" class="faq"><h3>⭐ DOMANDE FREQUENTI</h3><div class="faqgrid">
+<button onclick="ask('Qual è la migliore scheda video per 1080p?')">🎮 Qual è la migliore scheda video per 1080p? ›</button>
+<button onclick="ask('Quali sono i giochi più pesanti?')">🖥️ Quali sono i giochi più pesanti? ›</button>
+<button onclick="ask('Come formattare Windows 11?')">🪟 Come formattare Windows 11? ›</button>
+<button onclick="ask('Come fare una buona build da gaming?')">🚀 Come fare una buona build da gaming? ›</button>
+<button onclick="ask('Quale e quanta RAM è meglio per il gaming?')">🧠 Quale e quantaRAM è meglio per il gaming? ›</button>
+<button onclick="ask('Come risolvere un errore in un gioco?')">🛡️ Come risolvere un errore in un gioco? ›</button>
+<section id="faq" class="faq"><h3>❓ ALTRE DOMANDE</h3><div class="faqgrid"></div>
+<button onclick="ask('Come e nato PixelDrop?')">👾 "Come è nato PixelDrop?"›</button>
+<button onclick="ask('Carpisina può sbagliare?')">😶 "Carpisina può sbagliare"?›</button>
+<button onclick="ask('Carpisina e gratuita?')"> 💵 "Carpisina è gratuita?"›</button>
+<button onclick="ask('Che cosa è Carpisina?')"> ❓ "Che cosa è Carpisina?"›</button>
+
+</div></section></section>
+<aside id="chat"><div class="chathead"><div>🐢 <b>CARPISINA</b> <em>AI</em></div><span>● ONLINE</span></div><div id="messages"><div class="msg bot">🐢 <div>Ciao! Sono <b>Carpisina 🐢</b><br>Come posso aiutarti oggi?</div></div><div class="msg bot">🐢 <div>Posso aiutarti con <b>gaming, informatica, hardware e software</b>. Scrivimi!</div></div></div><div class="quick"><button onclick="ask('Consigliami un gioco')">🎮 Gaming</button><button onclick="ask('Aiutami con il mio PC')">🖥️ PC</button><button onclick="ask('Ho un problema tecnico')">⚙️ Aiuto</button></div><form onsubmit="send(event)"><input id="userInput" placeholder="Scrivi qui la tua domanda..."><button>➤</button></form><p class="disc">Carpisina AI può commettere errori. Verifica le informazioni importanti.</p></aside>
+</main><footer>🐢 Carpisina Copyright Reserved (PixelDrop) - 2026</footer><script src="script.js"></script></body></html>
